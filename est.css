@@ -1,0 +1,18 @@
+body{background: url("BG.png") no-repeat center center fixed;
+    background-size:cover;
+    height: 100%;
+}
+
+.atp{ background: lightslategray;
+}
+
+p.rgt{
+    text-align: right
+}
+
+.ctr{ text-align: center;
+    padding: 2%
+}
+
+.jst{ text-align: justify
+}
