@@ -3,8 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="caio.css">
     <title>Página do Caio</title>
@@ -13,17 +11,45 @@
 
    
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #4682B4;">
-        <a class="navbar-brand" href="caio.html"><strong>Main</strong></a>
+        <a class="navbar-brand" href="index.html">Main</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="caio-cadastro.html">Cadastro <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="caio.html"><strong>Cadastro</strong><span class="sr-only">(current)</span></a>
           </div>
         </div>
       </nav>
 
+
+      <h2>Preencha este formulário para receber um livro de SQL novinho</h2>
+      <div class="form-group">
+        <input type="text" class="form-control" name="adress" size="50" placeholder="Endereço">
+      </div>
+          <form max>
+            <select name="UF" class="custom-select"> 
+              <option selected>Estado</option> 
+              <option value="SP">São Paulo</option>
+              <option value="RJ">Rio de janeiro</option>
+              <option value="BH">Bahia</option>
+            </select> Algumas cidades disponíveis apenas. 
+          </form>           
+
+
+          <div class="form-group">
+            <input type="text" class="form-control" name="cpf" size="11" placeholder="CPF">
+          </div>
+
+
+      <form>
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+          <label class="custom-control-label" for="customCheck">Concorda em compartilhar suas informações para fins de pesquisa?</label>
+        </div>
+      </form>
+
+      <button type="button" class="btn btn-dark">Salvar</button>
 
 
     <!-- Optional JavaScript -->
