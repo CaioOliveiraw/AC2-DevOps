@@ -1,0 +1,21 @@
+
+.centro1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color : blue;
+   
+  
+}
+
+.centro2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color : red;
+  
+}
+
+
+body.color{
+    background:#0ace6cec;
+   
+}
